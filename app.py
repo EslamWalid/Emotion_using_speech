@@ -17,8 +17,8 @@ speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=speech_re
 pipe_lr = joblib.load(open("text_emotion.pkl", "rb"))
 
 #emojyes
-emotions_emoji_dict = {"anger": "😠", "disgust": "🤮", "fear": "😨😱", "happy": "🤗", "joy": "😂", "neutral": "😐", "sad": "😔",
-                       "sadness": "😔", "shame": "😳", "surprise": "😮"}
+emotions_emoji_dict = {"anger": "__😠__", "disgust": "__🤮__", "fear": "__😨😱__", "happy": "__🤗__", "joy": "__😂__", "neutral": "__😐__", "sad": "__😔__",
+                       "sadness": "__😔__", "shame": "__😳__", "surprise": "__😮__"}
 
 
 # Streamlit UI

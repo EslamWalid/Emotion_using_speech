@@ -9,8 +9,8 @@ import os
 
 
 
-speech_key = "2W38urFWGLILNDspBD6892li8bB5bRmUQG2R5Ce373Wi3rteoF1lJQQJ99AKACYeBjFXJ3w3AAAYACOGOK4l"
-speech_region = "eastus"
+speech_key = os.getenv("")
+speech_region = os.getenv("")
 speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=speech_region)
 
 #import model
@@ -69,4 +69,5 @@ if audio_data:
 
 
     
+
 
